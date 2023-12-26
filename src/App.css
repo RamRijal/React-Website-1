@@ -7,9 +7,11 @@
 
 img {
   max-width: 100%;
+  /* height: 40px; */
+}
+.logo{
   height: 40px;
 }
-
 .App {
   min-height: 100vh;
   width: 85vw;
@@ -91,6 +93,8 @@ color: #f6f6f6;}
   display: flex;
   padding-top: 3rem;
 }
+.highlight{
+  color: #FE9E0D; }
 
 .home-bannerImage-container {
   position: absolute;

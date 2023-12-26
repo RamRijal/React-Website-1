@@ -7,12 +7,12 @@ const About = () => {
     return (
         <div className='about-section-container'>
 
-            <div className='about-background-image container'>
-                <img src={AboutBg} alt="" />
+            <div className='about-background-image-container'>
+                <img src={`${AboutBg}`} alt='bg' />
             </div>
 
             <div className='about-section-image-container'>
-                <img src={AboutBgImage} alt='' />
+                <img src={`${AboutBgImage}`} alt='bgimg' />
             </div>
 
             <div className='about-section-text-container'>
@@ -30,7 +30,7 @@ const About = () => {
                     <button className='secondary-button'>
                         Learn more
                     </button>
-                    <button className=''>
+                    <button className='watch-video-button'>
                         <BsFillPlayCircleFill/>
                         Watch video
                     </button>

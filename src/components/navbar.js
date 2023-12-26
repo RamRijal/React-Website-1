@@ -39,7 +39,7 @@ const Navbar = () => { //Navbar function and using usestate for menu
 
             <div className='nav-logo-container' >
                 <a href='#'>
-                    <img src={Logo} alt="" />
+                    <img className='logo' src={Logo} alt="" />
                 </a>
             </div>
             <div className='navbar-links-container'>
