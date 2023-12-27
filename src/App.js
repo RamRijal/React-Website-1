@@ -1,6 +1,9 @@
 import './App.css';
+import Footer from './components/Footer';
 import About from './components/about';
+import Contact from './components/contact';
 import Home from './components/home';
+import Testimonials from './components/testimonials';
 import Work from './components/work';
 function App() {
   return (
@@ -8,6 +11,9 @@ function App() {
      <Home/>
      <About/>
      <Work/>
+     <Testimonials/>
+     <Contact/>
+     <Footer/>
     </div>
   );
 }
